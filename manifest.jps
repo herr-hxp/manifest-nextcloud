@@ -4,8 +4,8 @@ name: Nextcloud
 categories: ["apps/file-management", "apps/popular", "apps/file-manager"]
 appVersion: 12
 displayName: Nextcloud
-homepage: https://github.com/HidoraSwiss/manifest-nextcloud
-logo: https://raw.githubusercontent.com/HidoraSwiss/manifest-nextcloud/master/images/nextcloud-round.png
+homepage: https://github.com/herr-hxp/manifest-nextcloud
+logo: https://raw.githubusercontent.com/herr-hxp/manifest-nextcloud/master/images/nextcloud-round.png
 description: |
   Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on your Jelastic plateform.
   
@@ -17,18 +17,18 @@ globals:
 nodes: 
   - image: nextcloud 
     count: 1 
-    cloudlets: 16 
+    cloudlets: 8
+    diskLimit: 100
     nodeGroup: cp 
     volumes: 
      - /var/www/html/data 
      - /var/www/html 
-    skipNodeEmails: true   
         
   - nodeType: postgresql
     nodeGroup: sqldb
     count: 1
     cloudlets: 16
-    skipNodeEmails: true 
+    diskLimit: 100
           
 onInstall:
   - log: configuration Password PG
@@ -38,7 +38,7 @@ onInstall:
     
   - log: configuration Nextcloud
   - cmd[cp]:
-     - wget https://raw.githubusercontent.com/HidoraSwiss/manifest-nextcloud/master/autoconfig.php
+     - wget https://raw.githubusercontent.com/herr-hxp/manifest-nextcloud/master/autoconfig.php
      - sed -i 's/DB_PASSWORD/${globals.DB_PASSWORD}/g' autoconfig.php
      - sed -i 's/DB_USER/webadmin/g' autoconfig.php
      - sed -i 's/ADMIN_NAME/admin/g' autoconfig.php
