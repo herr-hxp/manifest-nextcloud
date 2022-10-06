@@ -17,4 +17,4 @@ This is a quick tutorial to explain how to quickly deploy a [Nextcloud](https://
 
 Few minutes later, your new Nextcloud server is fully installed and you can start to manage some files with your team.
 
-> If you need a secure connection over SSL/TLS, you can easily add a load balancer by the *topology panel* corresponding to your envrionnement and either install the Let's Encrypt Add-on or use your own certificate via the *environment settings* and *Custom SSL* tab.
+> If you need a secure connection over SSL/TLS, you can easily add a load balancer by the *topology panel* corresponding to your envrionnement and either install the Let's Encrypt Add-on or use your own certificate via the environment's *Settings* button and then head to the *Custom SSL* tab.
