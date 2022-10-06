@@ -7,7 +7,7 @@ Store your documents, calendar, contacts and photos on your Jelastic plateform.
 
 More info on [https://nextcloud.com/](https://nextcloud.com/)
 
-## Deploy Nextcloud on Hidora in 3 minutes
+## Deploy Nextcloud on Jelastic PaaS
 
 This is a quick tutorial to explain how to quickly deploy a [Nextcloud](https://nextcloud.com/) server on Hidora (or any other [Jelastic provider](https://jelastic.cloud/)).
 
