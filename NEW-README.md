@@ -27,19 +27,8 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Nextcloud on Elastx Virtuozzo PaaS</h3>
 
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
   </p>
 </p>
 
@@ -48,10 +37,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
+      <a href="#about-the-project">Nextcloud</a>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
@@ -61,7 +47,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -70,20 +55,20 @@
 </details>
 
 <!-- ABOUT THE PROJECT -->
-## Deploy Nextcloud on Virtuozzo PaaS
+## Nextcloud
 
 ![Nextcloud](images/nextcloud-round.png)
 
 Nextcloud puts your data at your fingertips, under your control.
-Store your documents, calendar, contacts and photos on Elastx's Virtuozzo PaaS platform.
+Store your documents, calendar, contacts and photos on Elastx Virtuozzo PaaS platform.
 
-More info on [https://nextcloud.com/](https://nextcloud.com/) and at [Elastx](https://elastx.se/en/virtuozzo/).
+More info on [https://nextcloud.com/](https://nextcloud.com/) and on [Elastx Virtuozzo PaaS](https://elastx.se/en/virtuozzo/).
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your Nextcloud on Elastx's Virtuozzo PaaS.
+This is an example of how you may give instructions on setting up your Nextcloud on Elastx Virtuozzo PaaS.
 To get your own environment up and running follow these simple steps.
 
 ### Prerequisites
