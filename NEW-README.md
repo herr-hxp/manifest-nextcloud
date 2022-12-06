@@ -37,7 +37,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">Nextcloud</a>
+      <a href="#nextcloud">Nextcloud</a>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
@@ -54,10 +54,12 @@
   </ol>
 </details>
 
-<!-- ABOUT THE PROJECT -->
+<!-- NEXTCLOUD -->
 ## Nextcloud
 
-![Nextcloud](images/nextcloud-round.png)
+<p align="center">
+  ![Nextcloud](images/nextcloud-round.png)
+</p>
 
 Nextcloud puts your data at your fingertips, under your control.
 Store your documents, calendar, contacts and photos on Elastx Virtuozzo PaaS platform.
