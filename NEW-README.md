@@ -95,44 +95,28 @@ This section should list any major frameworks that you built your project using.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+This is an example of how you may give instructions on setting up your Nextcloud on Elastx's Virtuozzo PaaS.
+To get your own environment up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+[Sign up for Elastx Virtuozzo PaaS](https://elastx.se/en/signup/) to get your account.
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
-   ```
+1. In the Virtuozzo PaaS Web GUI, click on `Import` and select the URL tab
+2. Paste this URL in the input field: https://raw.githubusercontent.com/herr-hxp/manifest-nextcloud/master/manifest.jps and click `Import`
+3. Provide an environment name and a display name for your new environment and then click on `Install`
+4. Sit back and relax while Virtuozzo PaaS creates your new environment
+
+A few moments later, your new Nextcloud application is fully installed and you can start to manage files with your team.
+
+> If you need a secure connection over SSL/TLS, you can easily add a load balancer by the *topology panel* corresponding to your envrionnement and either install the Let's Encrypt Add-on or use your own certificate via the environment's *Settings* button and then head to the *Custom SSL* tab.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+This manifest can be fully modified to suit your own needs. For more information, please check the [documentaion](https://docs.cloudscripting.com/).
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -159,8 +143,6 @@ Elastx on GitHub: [https://github.com/elastx](https://github.com/elastx)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
 * [Choose an Open Source License](https://choosealicense.com)
 * [Font Awesome](https://fontawesome.com)
 * [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
