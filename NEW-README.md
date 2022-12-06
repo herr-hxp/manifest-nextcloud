@@ -58,6 +58,7 @@
 ## Nextcloud
 
 <p align="center">
+  <img src="images/nextcloud-round.png" alt="Nextcloud logo">
   ![Nextcloud](images/nextcloud-round.png)
 </p>
 
