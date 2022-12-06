@@ -116,7 +116,7 @@ A few moments later, your new Nextcloud application is fully installed and you c
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-This manifest can be fully modified to suit your own needs. For more information, please check the [documentaion](https://docs.cloudscripting.com/).
+This manifest can be fully modified to suit your own needs. For more information, please check the [documentation](https://docs.cloudscripting.com/).
 
 <!-- CONTRIBUTING -->
 ## Contributing
