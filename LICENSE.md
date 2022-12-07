@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2022 Michael Jarnling
+Copyright (c) 2022 Elastx
 
 Copyright (c) 2018 Othneil Drew
 
