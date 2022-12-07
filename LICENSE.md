@@ -1,5 +1,7 @@
 MIT License
 
+Copyright (c) 2022 Michael Jarnling
+Copyright (c) 2018 Othneil Drew
 Copyright (c) 2017 Hidora
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
