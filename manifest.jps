@@ -15,7 +15,7 @@ globals:
   DB_PASSWORD: ${fn.password(10)}
   
 nodes: 
-  - image: nextcloud 
+  - image: nextcloud:25.0.0 
     count: 1 
     cloudlets: 8
     diskLimit: 100
